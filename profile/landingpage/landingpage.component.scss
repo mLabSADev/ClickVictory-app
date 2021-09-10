@@ -1,0 +1,76 @@
+ion-content {
+    --background: url('/assets/images/pexels-carl-wyatt-2237485.png');
+    /* no-repeat 100% 100%;*/
+    --background-size: cover;
+    --background-position: 60%;
+    width: 100%;
+    height: 100vh;
+}
+
+ion-button {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 194px;
+    margin: auto;
+    --border-radius: 25px;
+}
+
+ion-button a {
+    color: #575F6B;
+    text-decoration: none;
+}
+
+.log {
+    border-radius: 10px;
+}
+
+.log ion-button {
+    width: 194px;
+    height: 33px;
+    text-align: center;
+    --border-radius: 25px;
+    --background-color: #edeef2;
+}
+
+.log ion-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.account {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    top: 757px;
+    transform: translateY(-50%);
+    background-color: rgba(224, 235, 213, 0.4);
+    /*background: #659D30;
+                    background-color: rgba(101, 157, 48, 0.4);*/
+    border: 1px #707070;
+}
+
+.account p {
+    color: white;
+    padding: 0;
+    margin: 10px;
+    font-weight: 300;
+}
+
+.account p a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    position: absolute;
+    top: 140.19px;
+    width: 288.44px;
+    height: 134.53px;
+    margin-left: 50px;
+}
