@@ -1,3 +1,97 @@
-<p>
-  clientprofile works!
-</p>
+<ion-header>
+    <ion-toolbar class="header-cont">
+        <div class="cont ">
+            <a routerLink="/addproducts">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </a>
+            <p>Profile</p>
+            <img src="../../assets/images/logo.png ">
+        </div>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-item>
+        <div class="profile-pic">
+            <div class="profile"><img src="../../assets/images/pexels-pixabay-265216@2x.png" alt="pic" class="pic"></div>
+            <div class="person"> <img src="../../assets/images/profilepic.png" alt="avatar">
+                <p>4325<br>Sold</p>
+                <p>6523<br>Listed</p>
+                <p>3421<br>Reviews</p>
+            </div>
+        </div>
+    </ion-item>
+
+    <ion-item>
+        <div class="details">
+            <div class="name">
+                <h4>Phathutshedzo Nemaguvhuni</h4>
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>
+            <h6>Owner at Phathu Farm</h6>
+            <p class="fnd">Available funds</p>
+        </div>
+    </ion-item>
+
+    <ion-item>
+        <div class="training">
+            <h5>Upcoming Training Workshops</h5>
+            <p>Hydroponic Vegetable production</p>
+            <p>Duration:</p>
+            <p>Price:</p>
+            <p>Date:</p>
+        </div>
+    </ion-item>
+
+    <div class="grid">
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <img src="../../assets/images/pic3.jpg ">
+                </ion-col>
+                <ion-col>
+                    <img src="../../assets/images/pic4.jpg ">
+                </ion-col>
+                <ion-col>
+                    <img src="../../assets/images/pic1.jpg ">
+                </ion-col>
+
+            </ion-row>
+
+            <ion-row>
+                <ion-col>
+                    <img src="../../assets/images/pic3.jpg ">
+                </ion-col>
+                <ion-col>
+                    <img src="../../assets/images/pic4.jpg ">
+                </ion-col>
+                <ion-col>
+                    <img src="../../assets/images/pic1.jpg ">
+                </ion-col>
+
+            </ion-row>
+        </ion-grid>
+    </div>
+
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar class="ftr">
+        <div class="image-ftr">
+            <div class="image">
+                <a routerLink="/productspage"> <img src="../../assets/images/Group 114.png"> </a>
+
+            </div>
+            <div class="image">
+                <a routerLink="/clientprofile"> <img src="../../assets/images/Group 113@2x.png"> </a>
+            </div>
+            <div class="image">
+                <a routerLink="/trainingpage"> <img src="../../assets/images/Group 112@2x.png"> </a>
+            </div>
+            <div class="image">
+                <a routerLink="/deliveriespage"> <img src="../../assets/images/Group 111@2x.png"> </a>
+            </div>
+        </div>
+    </ion-toolbar>
+</ion-footer>

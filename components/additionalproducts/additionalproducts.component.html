@@ -1,7 +1,7 @@
 <ion-header>
     <ion-toolbar class="header-cont">
         <div class="cont ">
-            <a routerLink="/productspage ">
+            <a routerLink="/addproducts">
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </a>
             <p>Add Products</p>
@@ -11,24 +11,21 @@
 </ion-header>
 
 <ion-content>
-    <div class="card-content">
-        <ion-card class="prod-field">
-            <ion-card-content>
+    <div class="prod-field">
+
+        <!--  <div class="price-field">
                 <p class="price">R319.99 </p>
-            </ion-card-content>
-        </ion-card>
+        </div>
 
         <div class="prod-field">
+                <p class="price">234 Crates</p>
+        </div>-->
 
-            <p class="price">234 Crates</p>
-
-        </div>
         <div class="prod">
             <p class="image-prod"> This is where your product appear</p>
         </div>
     </div>
 
-    <h5>Banana</h5>
 
 
     <!--<ion-card class="prod-details">
@@ -36,13 +33,13 @@
     </ion-card>-->
 
     <ion-card class="prod-descrip">
-        <p>Lourem ahdjauihfuiyfuhadhjcnkjdfhjkdhf jfdhsdughsfhsghfshg</p>
+        <p>This is where description will appear</p>
     </ion-card>
 
-    <ion-item><a routerLink="/additionalproducts">EDIT</a></ion-item>
+    <ion-item><a routerLink="/addproducts">EDIT</a></ion-item>
 
     <ion-button color="light ">
-        <a href="/additionalproducts">CLOSE</a>
+        <a routerLink="/productspage">CLOSE</a>
     </ion-button>
 
 </ion-content>
@@ -50,10 +47,18 @@
 <ion-footer>
     <ion-toolbar class="ftr">
         <div class="image-ftr">
-            <div class="image"> <img src="../../assets/images/Group 114.png"> </div>
-            <div class="image"> <img src="../../assets/images/Group 113@2x.png"> </div>
-            <div class="image"> <img src="../../assets/images/Group 112@2x.png"> </div>
-            <div class="image"> <img src="../../assets/images/Group 111@2x.png"> </div>
+            <div class="image">
+                <a routerLink="#"> <img src="../../assets/images/Group 114.png"> </a>
+            </div>
+            <div class="image">
+                <a routerLink="/clientprofile"> <img src="../../assets/images/Group 113@2x.png"> </a>
+            </div>
+            <div class="image">
+                <a routerLink="#"> <img src="../../assets/images/Group 112@2x.png"> </a>
+            </div>
+            <div class="image">
+                <a routerLink="#"> <img src="../../assets/images/Group 111@2x.png"> </a>
+            </div>
         </div>
     </ion-toolbar>
 </ion-footer>

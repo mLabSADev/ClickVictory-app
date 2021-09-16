@@ -1,19 +1,13 @@
 ion-header {
     width: 100%;
-    --ion-background-color: #EFF9F3;
     display: inline-block;
+    --ion-background-color: #EFF9F3;
 }
 
-ion-toolbar {
+ion-toolbar.header-cont {
     width: 100%;
-    height: 105px;
+    --ion-toolbar-background-color: #EFF9F3;
 }
-
-
-/*ion-item {
-    display: flex;
-    justify-content: center;
-}*/
 
 ion-icon {
     color: gray;
@@ -24,7 +18,7 @@ ion-icon {
 
 .cont {
     padding: 0;
-    margin-top: 50px;
+    margin-top: 8px;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
@@ -39,16 +33,6 @@ ion-icon {
     height: 37.81px;
     margin-left: 110px;
 }
-
-
-/*.cont ion-icon {
-    margin-left: -3px;
-prod-w144,h132,x20,y218
-smlinput-w174,h54,x182,y128
-biginput,w337,h54,x18,y360
-desc-w337,h170,x18,y434
-but-w194,h33,x91,h647
-}*/
 
 ion-content {
     width: 100%;
@@ -92,7 +76,10 @@ div.prod-field {
     position: relative;
     left: 162px;
     top: 20px;
-    background-color: salmon;
+}
+
+ionic-card.prod-field {
+    --background-color: palevioletred;
 }
 
 .prod-details h5 {
@@ -142,6 +129,7 @@ ion-button a {
     text-align: center;
     text-decoration: none;
     color: #575F6B;
+    box-shadow: 4px 5px 5px 5px rgba(233, 233, 233, 0.6)
 }
 
 ion-footer {
