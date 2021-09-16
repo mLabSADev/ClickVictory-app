@@ -1,7 +1,11 @@
-<ion-content>
-    <ion-item>
+<ion-header>
+    <ion-toolbar class="header-cont">
         <p>Register</p>
-    </ion-item>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
     <form>
         <div class="section-form">
 
@@ -11,30 +15,30 @@
             <p>Physical Address Details</p>
         </div>
 
-        <ion-item>
+        <ion-card>
             <ion-input type="text" placeholder="Street Name & Number">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item>
+        <ion-card>
             <ion-input type="text" placeholder="Suburb ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item>
+        <ion-card>
             <ion-input type="number" placeholder="City ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item>
+        <ion-card>
             <ion-input placeholder="Province ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item>
+        <ion-card>
             <ion-input placeholder="Postal Code ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
         <p class="opt">
             <ion-checkbox color="primary"> </ion-checkbox>
@@ -45,3 +49,9 @@
         </ion-button>
     </form>
 </ion-content>
+
+<ion-footer>
+    <ion-toolbar class="ftr">
+        <p>Saved minutes ago</p>
+    </ion-toolbar>
+</ion-footer>

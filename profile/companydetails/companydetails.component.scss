@@ -1,5 +1,13 @@
+ion-header {
+    width: 100%;
+}
+
+ion-toolbar.header-cont {
+    width: 100%;
+    --background: #EFF9F3;
+}
+
 ion-content {
-    --ion-background-color: #EFF9F3;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -39,12 +47,11 @@ form {
     border-bottom: 1px solid grey;
 }
 
-form ion-item {
-    margin: 20px;
-    padding: 0;
-    --ion-item-background: rgb(255, 255, 255);
-    border: 1px solid red;
-    border-radius: 25px;
+form ion-card {
+    margin: 25px auto;
+    padding-left: 22px;
+    box-shadow: 5px 5px 5px rgba(233, 233, 233) inset;
+    border-radius: 25px
 }
 
 form .section-form {
@@ -57,14 +64,29 @@ form .section-form p {
 }
 
 ion-input {
-    --ion-input-border: none;
     border-radius: 25px;
-    margin: 0;
-    padding: 40px;
+    margin: 5px;
+    padding: 0;
     --width: 100%;
-    /*box-shadow: 7px 7px 7px #d0d0d0 inset;*/
 }
 
 p {
+    text-align: center;
+}
+
+
+/*footer*/
+
+ion-footer {
+    width: 100%;
+}
+
+ion-toolbar.ftr {
+    --background: #EFF9F3;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 30px;
     text-align: center;
 }

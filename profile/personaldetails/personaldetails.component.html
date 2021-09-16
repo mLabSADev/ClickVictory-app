@@ -1,7 +1,11 @@
-<ion-content>
-    <ion-item>
+<ion-header>
+    <ion-toolbar class="header-cont">
         <p>Register</p>
-    </ion-item>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
     <form>
         <div class="section-form">
 
@@ -11,28 +15,34 @@
             <p>Personal Details</p>
         </div>
 
-        <ion-item class="item">
+        <ion-card class="item">
             <ion-input type="text " placeholder="NAME ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item class="item">
+        <ion-card class="item">
             <ion-input type="text " placeholder="SURNAME ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item class="item">
+        <ion-card class="item">
             <ion-input type="number " placeholder="ID NUMBER ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
-        <ion-item class="item">
+        <ion-card class="item">
             <ion-input placeholder="EMAIL ADDRESS ">
             </ion-input>
-        </ion-item>
+        </ion-card>
 
         <ion-button color="light ">
             <a href="/physicaladdress "> NEXT</a>
         </ion-button>
     </form>
 </ion-content>
+
+<ion-footer>
+    <ion-toolbar class="ftr">
+        <p>Saved 20 seconds ago</p>
+    </ion-toolbar>
+</ion-footer>
